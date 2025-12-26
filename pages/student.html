@@ -10,16 +10,76 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+      rel="stylesheet"
+    />
     <title>EduManage</title>
   </head>
   <body>
-    <div class="flex flex-col items-center mt-20">
-      <h1 class="font-semibold text-3xl text-center">
-        Welcome to Student Dashboard!
-      </h1>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="logo">
+          <span class="star-icon"></span>
+          <h1>EduManage</h1>
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#dashboard">
+                <span class="material-symbols-rounded"> explore </span>
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#view-info">
+                <span class="material-symbols-rounded"> dataset </span>
+                View-information
+              </a>
+            </li>
+            <li>
+              <a href="#view-grade-info">
+                <span class="material-symbols-rounded"> grading </span>
+                View-grade-info
+              </a>
+            </li>
+            <li>
+              <a href="#communication">
+                <span class="material-symbols-rounded"> communication </span>
+                Communication
+              </a>
+            </li>
+            <li>
+              <a href="#examination">
+                <span class="material-symbols-rounded"> assignment </span>
+                Examination
+              </a>
+            </li>
+            <li>
+              <a href="#access-materials">
+                <span class="material-symbols-rounded"> personal_bag </span>
+                Access-materials
+              </a>
+            </li>
+            <li>
+              <a href="settings">
+                <span class="material-symbols-rounded"> settings </span>
+                Settings
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="logout">
+          <a href="#logout">
+            <span class="material-symbols-rounded"> logout </span>
+            Logout
+          </a>
+        </div>
+      </aside>
+      <main class="content">
+        <!-- Main area-->
+      </main>
     </div>
-
     <script type="module" src="../src/main.js"></script>
   </body>
 </html>
