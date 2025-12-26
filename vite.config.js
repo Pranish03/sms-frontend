@@ -8,6 +8,9 @@ export default defineConfig({
       input: {
         main: "index.html",
         login: "login.html",
+        admin: "./pages/admin.html",
+        student: "./pages/student.html",
+        teacher: "./pages/teacher.html",
       },
     },
   },
