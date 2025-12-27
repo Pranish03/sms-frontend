@@ -4,84 +4,106 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Font Awesome -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
+      rel="stylesheet"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"
-      rel="stylesheet"
-    />
 
     <title>EduManage</title>
   </head>
 
-  <body>
-    <div class="container">
-      <aside class="sidebar">
-        <div class="logo">
-          <span class="star-icon"></span>
-          <h1>EduManage</h1>
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <a href="#dashboard">
+  <body class="bg-gray">
+    <div class="flex h-screen">
+      <aside class="w-80 bg-gray-50  flex flex-col justify-between">
+        <!-- Logo -->
+        <div>
+          
+          <div class="flex items-center gap-2 px-6 py-4 border-b">
+            <i class="text-blue-600 text-xl"></i>
+            <img src="../logo.svg" alt="EduManage Logo" class="h-15  w-auto" />
+            <span class="text-2xl font-bold text-primary ">EduManage</span>
+            
+          </div>
+
+          <!-- Navigation -->
+          <nav class="mt-4">
+            <div class="space-y-3">
+              <div
+                class="text-xl text-black flex items-center gap-2 px-3 py-4 hover:bg-blue-100 hover:text-secondary hover:cursor-pointer"
+              >
                 <span class="material-symbols-rounded"> explore </span>
                 Dashboard
-              </a>
-            </li>
-            <li>
-              <a href="#students">
-                <span class="material-symbols-rounded"> user_attributes </span>
-                Manage students
-              </a>
-            </li>
-            <li>
-              <a href="#teachers">
-                <span class="material-symbols-rounded">
-                  supervised_user_circle
-                </span>
-                Manage Teachers
-              </a>
-            </li>
-            <li>
-              <a href="#scheduling">
-                <span class="material-symbols-rounded"> schedule </span>
-                Scheduling
-              </a>
-            </li>
-            <li>
-              <a href="#examinations">
-                <span class="material-symbols-rounded"> assignment </span>
-                Examination
-              </a>
-            </li>
-            <li>
-              <a href="#results">
-                <span class="material-symbols-rounded"> analytics </span>
-                Results
-              </a>
-            </li>
-            <li>
-              <a href="settings">
-                <span class="material-symbols-rounded"> settings </span>
+              </div>
+
+              <div
+                class="text-xl text-black flex items-center gap-2 px-3 py-4  hover:bg-blue-100 hover:text-secondary cursor-pointer"
+              >
+                 <span class="material-symbols-rounded"> user_attributes</span>Manage Student
+              </div>
+
+              <div
+                class="text-xl text-black flex items-center gap-2 px-3 py-4  hover:bg-blue-100 hover:text-secondary cursor-pointer"
+              >
+                <span class="material-symbols-rounded"> supervisor_account</span>
+                Manage Teacher
+              </div>
+
+              <div
+                class="text-xl text-black flex items-center gap-2 px-3 py-4  hover:bg-blue-100 hover:text-secondary cursor-pointer"
+              >
+                <span class="material-symbols-rounded"> schedule </span>Scheduling
+              </div>
+
+              <div
+                class="text-xl text-black flex items-center gap-2 px-3 py-4  hover:bg-blue-100 hover:text-secondary cursor-pointer"
+              >
+                <span class="material-symbols-rounded"> assignment </span>Examination control
+              </div>
+
+               <div
+                class="text-xl text-black flex items-center gap-2 px-3 py-4  hover:bg-blue-100 hover:text-secondary cursor-pointer"
+              >
+                <span class="material-symbols-rounded"> analytics </span>Result control
+              </div>
+
+
+              
+
+              <div
+                class="text-xl text-black flex items-center gap-2 px-3 py-4  hover:bg-blue-100 hover:text-secondary cursor-pointer"
+              >
+              <span class="material-symbols-rounded"> settings </span>
                 Settings
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="logout">
-          <a href="#logout">
-            <span class="material-symbols-rounded"> logout </span>
-            Logout
-          </a>
+              </div>
+            </div>
+          </nav>
         </div>
+
+        <!-- Logout -->
+        <footer>
+          <div class=" border-t">
+          <div class="text-xl text-black flex items-center gap-2 px-3 py-4  hover:bg-blue-100 hover:text-secondary cursor-pointer">
+            <span class="material-symbols-rounded"> logout </span>
+           Logout
+          </div>
+        </footer>
       </aside>
-      <main class="content">
-        <!-- Main area-->
+
+      <!-- Main Content Area -->
+      <main>
+        <div>
+        <h1>Dashboard Content Area</h1>
+        <p>This section will display page content.</p>
+        </div>
+        
       </main>
     </div>
 
